@@ -40,7 +40,7 @@ int InitTile(Tile * pTile, int iXPos, int iYPos, Row * pRow, Col * pCol, Square 
 	pTile->pSquare = pSqaure;
 
 	for (int i = 0; i < PUZZLE_SIZE; i++) {
-		pTile->iPossibleVals[i] = 1;
+		pTile->aPossibleVals[i] = 1;
 	}
 
 	return 0;
@@ -53,8 +53,8 @@ void PrintTile(Tile stToPrint) {
 	printf("Possible Values: ");
 
 	for (int i = 0; i < PUZZLE_SIZE; i++) {
-		if(stToPrint.iPossibleVals[i] != 0) {
-			printf("%d", stToPrint.iPossibleVals[i]);
+		if(stToPrint.aPossibleVals[i] != 0) {
+			printf("%d", i);
 		}
 	}
 	printf("\n");

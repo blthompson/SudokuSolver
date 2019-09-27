@@ -10,15 +10,15 @@
 int main()
 {
    char rows[9][10];
-   strcpy(rows[0], "7-9----4-");
-   strcpy(rows[1], "1-----5--");
-   strcpy(rows[2], "--214-378");
-   strcpy(rows[3], "----9381-");
-   strcpy(rows[4], "-5-6-1-9-");
-   strcpy(rows[5], "-9148----");
-   strcpy(rows[6], "315-672--");
-   strcpy(rows[7], "--8-----7");
-   strcpy(rows[8], "-4----9-3");
+   strcpy(rows[0], "1---4-26-");
+   strcpy(rows[1], "8-31-6---");
+   strcpy(rows[2], "9-----3-1");
+   strcpy(rows[3], "78--34-5-");
+   strcpy(rows[4], "4--7-9--2");
+   strcpy(rows[5], "-9-81--37");
+   strcpy(rows[6], "5-4-----3");
+   strcpy(rows[7], "---4-16-9");
+   strcpy(rows[8], "-69-8---4");
 
 
    SolvePuzzle(rows);

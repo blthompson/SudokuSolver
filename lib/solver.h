@@ -13,12 +13,35 @@ int PopulateSquares(Board * pBoard);
 
 void PrintBoardTileVals(Board stToPrint);
 
-void PrintBoardRowVals(Board stToPrint);
+void PrintBoardTiles(Board stToPrint);
 
-void PrintBoardColVals(Board stToPrint);
+void ReduceRow(Row * pRow);
 
-void PrintBoardSquareVals(Board stToPrint);
+void ReduceCol(Col * pCol);
 
-void TestPrint(Board stToPrint);
+void ReduceSquare(Square * pSquare);
+
+void ReduceAllRows(Board * pBoard);
+
+void ReduceAllCols(Board * pBoard);
+
+void ReduceAllSquares(Board * pBoard);
+
+int FindUniqueInRow(Row * pRow);
+
+int FindUniqueInCol(Col * pCol);
+
+int FindUniqueInSquare(Square * pSquare);
+
+int FindUniqueInAllRows(Board * pBoard);
+
+int FindUniqueInAllCols(Board * pBoard);
+
+int FindUniqueInAllSquares(Board * pBoard);
+
+int FindValue(Tile * pTile);
+
+int IterateSolution(Board * pBoard);
+
 
 #endif

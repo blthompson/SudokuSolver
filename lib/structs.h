@@ -17,7 +17,7 @@ struct tile{
 	Row * pRow;
 	Col * pCol;
 	Square * pSquare;
-	int iPossibleVals[PUZZLE_SIZE];		//0 is index + 1 is NOT possible
+	int aPossibleVals[PUZZLE_SIZE];		//0 is index + 1 is NOT possible
 };
 
 struct row{
